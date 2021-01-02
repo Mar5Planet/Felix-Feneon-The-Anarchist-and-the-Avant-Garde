@@ -1,5 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400;700&display=swap');
+html
+{
+  -webkit-tap-highlight-color:transparent;
+}
 
-* { box-sizing: border-box; }
+.app-text {
+  background-color: #65737C;
+  font-family: 'Gaegu', cursive;
+  text-align: center;
+  padding: 3% 0;
+
+}
+/*Carousel */
+
 
 .scene {
   position: relative;
@@ -7,6 +20,7 @@
   height: 140px;
   perspective: 1000px;
   margin: 10% auto;
+  margin-bottom: 250px;
 
 }
 
@@ -52,3 +66,19 @@
 .carousel__cell:nth-child(7) { transform: rotateY(240deg) translateZ(288px); }
 .carousel__cell:nth-child(8) { transform: rotateY(280deg) translateZ(288px); }
 .carousel__cell:nth-child(9) { transform: rotateY(320deg) translateZ(288px); }
+
+.btn-div {
+  display: block;
+  text-align: center;
+}
+.btn-div button {
+  background-color: transparent;
+  border: none;
+  width: 40%;
+  font-size: 2rem;
+}
+
+.btn-div button:focus {outline:0;}
+.btn-div button:hover {
+  cursor: pointer;
+}
