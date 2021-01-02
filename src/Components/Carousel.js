@@ -3,26 +3,21 @@ import React, {useState} from 'react';
 const Carousel = () => {
     let [selectedIndex, setSelectedIndex] = useState(0)
     const [cellCount,] = useState(9);
-    let [transform, setTransform] = useState({color: 'red'});
+    let [transform, setTransform] = useState({});
 
-    const rotateCarousel = () => {
-        let angle = selectedIndex/cellCount * -360;
+    const rotateCarousel = (index) => {
+        let angle = index/cellCount * -360;
         setTransform({transform: 'translateZ(-288px) rotateY(' + angle + 'deg)'})
     };
 
     const prevButton = () => {
         setSelectedIndex(selectedIndex-1);
-        setTransform({color: 'green !important'})
-        // rotateCarousel();
-        console.log(selectedIndex)
-        console.log(transform)
+        rotateCarousel(selectedIndex-1);
     };
 
     const nextButton = () => {
         setSelectedIndex(selectedIndex+1);
-        setTransform({color: 'red !important'})
-        console.log(transform)
-        // rotateCarousel();
+        rotateCarousel(selectedIndex+1);
     }
 
     return (
