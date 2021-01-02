@@ -22,26 +22,26 @@
 .carousel__cell {
   position: absolute;
   width: 190px;
-  height: 120px;
+  height: 280px;
   left: 10px;
   top: 10px;
-  border: 2px solid black;
   line-height: 116px;
   font-size: 80px;
   font-weight: bold;
   text-align: center;
+  
 }
 
 
-.carousel__cell:nth-child(9n+1) { background: hsla(  0, 100%, 50%, 0.8); }
-.carousel__cell:nth-child(9n+2) { background: hsla( 40, 100%, 50%, 0.8); }
-.carousel__cell:nth-child(9n+3) { background: hsla( 80, 100%, 50%, 0.8); }
-.carousel__cell:nth-child(9n+4) { background: hsla(120, 100%, 50%, 0.8); }
-.carousel__cell:nth-child(9n+5) { background: hsla(160, 100%, 50%, 0.8); }
-.carousel__cell:nth-child(9n+6) { background: hsla(200, 100%, 50%, 0.8); }
-.carousel__cell:nth-child(9n+7) { background: hsla(240, 100%, 50%, 0.8); }
-.carousel__cell:nth-child(9n+8) { background: hsla(280, 100%, 50%, 0.8); }
-.carousel__cell:nth-child(9n+0) { background: hsla(320, 100%, 50%, 0.8); }
+.carousel__cell:nth-child(9n+6) {  background-image: url("https://wahooart.com/Art.nsf/O/8EWH7D/$File/Georges-Pierre-Seurat-Modelo-de-Espaldas.JPG"); background-size:100% 100%; }
+.carousel__cell:nth-child(9n+2) {  background-image: url("https://paris-luttes.info/IMG/jpg/p-re-peinard-2-4099669.jpg"); background-size:100% 100%; }
+.carousel__cell:nth-child(9n+3) {  background-image: url("https://alchetron.com/cdn/mile-pouget-49ce55f5-61c6-4701-ad22-143a1d4a16f-resize-750.jpeg"); background-size:100% 100%; }
+.carousel__cell:nth-child(9n+0) {  background-image: url("https://i.pinimg.com/originals/b8/78/fe/b878feb01189d9d66ad953205b771425.jpg"); background-size:100% 100%; }
+.carousel__cell:nth-child(9n+1) {  background-image: url("https://collection.imamuseum.org/artwork/36845/0_full.jpg"); background-size:100% 100%; }
+.carousel__cell:nth-child(9n+5) {  background-image: url("https://www.moma.org/media/W1siZiIsIjQ2OTA3MCJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MCAtcmVzaXplIDIwMDB4MTQ0MFx1MDAzZSJdXQ.jpg?sha=7ef54b68629adfe8"); background-size:100% 100%; }
+.carousel__cell:nth-child(9n+7) {  background-image: url("https://images-na.ssl-images-amazon.com/images/I/61cRqP1Zr5L._AC_SY741_.jpg"); background-size:100% 100%; }
+.carousel__cell:nth-child(9n+8) {  background-image: url("https://images.metmuseum.org/CRDImages/dp/original/DT11780.jpg"); background-size:100% 100%; }
+.carousel__cell:nth-child(9n+4) {  background-image: url("https://3h7pwd17k2h42n17eg2j7vdq-wpengine.netdna-ssl.com/wp-content/uploads/2020/11/58-SHEA-Signac_Opus-217-resized-2000x1597-1-820x550.jpg"); background-size:100% 100%; }
 
 .carousel__cell:nth-child(1) { transform: rotateY(  0deg) translateZ(288px); }
 .carousel__cell:nth-child(2) { transform: rotateY( 40deg) translateZ(288px); }
