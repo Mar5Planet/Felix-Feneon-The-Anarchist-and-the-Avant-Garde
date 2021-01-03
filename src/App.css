@@ -1,15 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
 html
 {
   -webkit-tap-highlight-color:transparent;
 }
 
 .app-text {
-  background-color: #65737C;
-  font-family: 'Gaegu', cursive;
+  background-color: #DEFCEA;
+  font-family: 'Titillium Web', sans-serif;
   text-align: center;
   padding: 3% 0;
 
+}
+
+.app-text a {
+  text-decoration: none;
+  color: black;
+}
+
+.app-text a:hover {
+  color: #5751BF;
 }
 /*Carousel */
 
